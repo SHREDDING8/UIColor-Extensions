@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 import UIKit
 // MARK: - HEX COLOR
-extension UIColor{
+public extension UIColor{
     func toHex() -> String {
         let components = self.cgColor.components
         let r: CGFloat = components?[0] ?? 0.0
