@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "UIColor Extensions",
+    name: "UIColorExtensions",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "UIColor Extensions",
-            targets: ["UIColor Extensions"]),
+            name: "UIColorExtensions",
+            targets: ["UIColorExtensions"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
