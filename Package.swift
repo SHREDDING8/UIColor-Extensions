@@ -8,16 +8,16 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "UIColor Extensions",
-            targets: ["UIColor Extensions"]),
+            name: "UIColorExtensions",
+            targets: ["UIColorExtensions"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "UIColor Extensions"),
+            name: "UIColorExtensions"),
         .testTarget(
-            name: "UIColor ExtensionsTests",
-            dependencies: ["UIColor Extensions"]),
+            name: "UIColorExtensionsTests",
+            dependencies: ["UIColorExtensions"]),
     ]
 )
